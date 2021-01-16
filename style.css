@@ -1,0 +1,823 @@
+/*GLOBAL*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Fira-R";
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+@font-face{
+	font-family: "Fira-R";
+	src: url(aset/font/FiraSans-Regular.otf);
+}
+
+@font-face{
+	font-family: "Fira-M";
+	src: url(aset/font/FiraSans-Medium.otf);
+}
+
+@font-face{
+	font-family: "Fira-B";
+	src: url(aset/font/FiraSans-Bold.otf);
+}
+
+@font-face{
+	font-family: "Fira-EB";
+	src: url(aset/font/FiraSans-ExtraBold.otf);
+}
+
+/*Navbar*/
+nav{
+	font-size: 16px;
+}
+
+.navbar-toggler:active,.navbar-toggler:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+nav ul li{
+	padding-left: 50px;
+}
+
+nav ul li a{
+	color: white;
+	letter-spacing: 2px;
+	font-family: "Fira-M";
+}
+
+nav ul li a:hover{
+	color: #82A822;
+}
+
+.navbar a,.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar {
+   min-height: 40px !important;
+}
+
+
+
+.bg-transparant {
+    background: rgba(0,0,0,.3) !important;
+    transition :.7s ease;
+}
+.bg-transparant.scroll{
+    background-color: rgba(130, 168, 34,.9) !important;
+}
+
+.navbar-nav.scroll a:hover{
+	background-color: rgba(0,0,0,.0) !important;
+	color: black !important;
+}
+
+.bg-transparant.scroll a{
+	color: white !important;
+}
+
+/*Carousel*/
+.carousel-inner{
+	position: relative;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 650px;
+	filter: brightness(40%);
+}
+
+
+.carousel-inner .caption{	
+	position: absolute;
+  	color: white;
+  	background-color: rgba(0,0,0,.1);
+  	padding: 20px;
+  	border-radius: 5px;
+  	animation: fade 3s;
+}
+
+.carousel-inner .caption h2{
+	font-weight: 600;
+	font-size: 60px;
+}
+
+.carousel-inner .caption p{
+	font-size: 20px;
+	word-spacing: 5px;
+}
+
+.carousel-item:nth-child(1) .caption{
+	bottom: 40%; 
+	left: 33%; 
+	width: 565px;
+}
+
+.carousel-item:nth-child(2) .caption{
+	bottom: 40%; 
+	left: 50%; 
+	width: 650px;
+}
+
+.carousel-item:nth-child(3) .caption{
+	bottom: 40%; 
+	left: 10%; 
+	width: 680px;
+}
+
+@keyframes fade{
+	from{
+		opacity: .1;
+	}
+
+	to{
+		opacity: 1;
+	} 
+}
+
+
+/*ABOUT*/
+#about{
+	padding-top: 100px;
+}
+
+.about{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	height: 500px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#about .head{
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: "Fira-B";
+}
+
+/*About Image*/
+.about .images{
+	width: 59%;
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+.about .image{
+	width: 100%;
+	height: 350px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	display: flex;
+	position: relative;
+}
+
+.about .image img{
+	width: inherit;
+	height: inherit;
+	filter: brightness(70%);
+	box-sizing: border-box;
+}
+
+.images .image:nth-of-type(1){
+	margin-top: -20px !important;
+}
+
+.images .image:nth-of-type(2){
+	margin-top: 20px;
+}
+
+.images .image:nth-of-type(3){
+	margin-top: -20px;
+}
+
+.images .image:nth-of-type(4){
+	margin-top: 20px;
+}
+
+
+.about .image p{
+	color: white;
+	padding: 35px;
+	font-size: 18px;
+	font-weight: 600;
+	align-self: flex-end;
+	z-index: 200;
+	position: absolute;
+}
+
+
+/*About Article*/
+.about .nav-article{
+	width: 35%;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about .nav-article p{
+	font-style: italic;
+	font-size: 30px;
+	color: grey;
+	padding: 30px;
+}
+
+/*SERVICE*/
+.service{
+	display: flex;
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+	padding-top: 100px;
+}
+
+/*Left Service*/
+.service .left-service{
+	width: 60%;
+	height: inherit;
+	display: flex;
+	margin-left: 40px;
+}
+
+.left-service .image{
+	display: flex;
+	justify-content: center;
+}
+
+.left-service img{
+	width: 180px;
+	filter: brightness(70%);
+}
+
+.left-service p{
+	position: absolute;
+	z-index: 2;
+	text-transform: capitalize;
+	color: white;
+	align-self: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.left-service span{
+	word-spacing: normal;
+}
+
+/*Right Service*/
+.service .right-service{
+	width: 40%;
+	height: inherit;
+}
+
+.service .head-service{
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 30px;
+	padding: 20px;
+	font-family: "Fira-B";
+}
+
+.right-service .btn{
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .1);
+	background-color: white;
+	width: 80%;
+	text-transform: capitalize;
+	font-size: 19px;
+	padding: 12px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.right-service .btn:hover{
+	color: #82A822;
+}
+
+.right-service .card-body{
+	border-top: 5px solid #82A822;
+	border-radius: 5px;
+}
+
+.right-service .collapse{
+	width: 80%;
+	font-size: 16px;
+}
+
+.collapsing{
+	width: 80% !important;
+	font-size: 16px;
+}
+
+/*STRATEGIC SECTION*/
+.strat{
+	margin-top: 200px;
+}
+
+.strat h1{
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 900;
+	font-size: 50px;
+	font-family: "Fira-B";
+}
+
+.strat .cards{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+.strat .card{
+	text-align: center;
+	width: 220px;
+	height: 250px;
+	background-color: white;
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .1);
+	border-radius: 10%;
+}
+
+.strat .card .circle{
+	clip-path: circle(100px at center 0);
+	width: 100%;
+	height: 60%;
+	background: rgb(147,168,34);
+	background: linear-gradient(152deg, rgba(147,168,34,1) 16%, rgba(127,165,34,1) 32%, rgba(130,168,34,1) 48%, rgba(176,255,0,0.944397742006959) 70%); 
+	text-align: center;
+}
+
+.strat .card .circle h1{
+	font-size: 40px;
+	padding: 20px 0;
+	font-family: "Fira-M";
+}
+
+.strat .card .text{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 40%;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+/*PARTNERSHIP*/
+.partner{
+	margin-top: 100px;
+}
+
+.partner h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: "Fira-B";
+}
+
+
+/*FOOTER*/
+.footer{
+	margin-top: 100px;
+	background-color: rgba(0,0,0,.9);
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.image-brand{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.image-brand img{
+	height: 250px;
+	width: 300px;
+
+}
+
+.image-brand p{
+	padding: 0 20px;
+	font-size: 20px;
+	color: white;
+	margin-top: -50px;
+}
+
+.image-brand p span{
+	text-transform: capitalize;
+	display: block;
+	color: #82A822;
+	font-family: "Fira-B";
+}
+
+
+.support{
+	width: 25%;
+	height: 100%;
+}
+
+.support h3{
+	font-family: "Fira-B";
+	padding: 20px 20px 10px;
+	color: #82A822;
+}
+
+.support i{
+ 	font-style: normal;
+ 	display: block;
+ 	margin-left: 20px;
+ 	font-size: 20px;
+ 	padding: 10px;
+ 	color: white;
+}
+
+.support a{
+	text-decoration: none;
+	color: red;
+}
+
+.social{
+	width: 25%;
+	height: 100%;
+}
+
+.social h3{
+	font-family: "Fira-B";
+	padding: 20px 20px 10px;
+	color: #82A822;
+}
+
+.social .image i{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	color: white;
+	font-size: 40px;
+}
+
+/*COPYRIGHT*/
+.copyright{
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.copyright p{
+	font-size: 20px;
+	color: white;
+	padding: 25px;
+}
+
+.copyright span a{
+	color: #82A822;
+	text-decoration: none;
+}
+
+
+/*For Mobile*/
+@media(max-width: 454px){
+
+
+	/*Navbar Responsive*/
+	.navbar-brand{
+		padding-left: 0 !important;
+	}
+
+	nav ul li{
+		padding: 0 20px 20px;
+	}
+
+	.navbar-collapse.collapsing{
+			margin: 0 !important;
+		padding: 0!important;
+		font-size: 16px !important;
+	}
+
+
+	/*Carousel Responsive*/
+	.carousel-inner{
+		width: 100%;
+	}
+
+	.carousel-inner img{
+		width: inherit;
+	}
+
+	.carousel-inner .caption h2{
+		font-size: 25px;
+	}
+
+	.carousel-inner .caption p{
+		font-size: 15px;
+	}
+
+	.carousel-item:nth-child(1) .caption{
+		right: 50%;
+		left: 50%;
+		transform: translate(-50%, -10%);
+		width: 400px;
+		text-align: center;
+	}
+
+	.carousel-item:nth-child(2) .caption{
+		width: 250px;
+		right: 50%;
+		transform: translate(-20%, -10%);
+		text-align: right;
+	}
+
+	.carousel-item:nth-child(3) .caption{
+		left: 50%; 
+		width: 250px;
+		text-align: left;
+		transform: translate(-85%, -10%);
+	}
+
+	/*About Section*/
+	.about{
+		height: auto;
+	}
+
+	#about .head{
+		font-size: 22px;
+	}
+
+
+	/*About Image*/
+	.about .images{
+		width: 100%;
+		height: 100%;
+		padding-top: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about .image{
+		width: 90px;
+		height: 250px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about .image img{
+		width: inherit;
+		height: inherit;
+		padding: 0;
+	}
+
+	.images .image:nth-child(1){
+		margin-left: 20px;
+	}
+
+	.images .image:nth-child(2){
+		margin-left: 0;
+	}
+
+	.images .image:nth-child(3){
+		margin-left: 0;
+	}
+
+	.images .image:nth-child(4){
+		margin-left: 0;
+	}
+
+	.about .image p{
+		color: white;
+		position: absolute;
+		font-size: 12px;
+		font-weight: 600;
+		z-index: 2;
+		padding: 0 10px 0;
+	}
+
+
+	/*About article*/
+	.about .nav-article{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.about .nav-article p{
+		font-size: 25px;
+	}
+
+	/*Service*/
+	.service{
+		margin-top: 0;
+		padding-top: 80px;
+		height: auto;
+		flex-wrap: wrap;
+	}
+
+	/*Left-Service*/
+	.service .left-service{
+		width: 100%;
+		margin: 0 20px 0; 
+	}
+
+	.left-service img{
+		width: 100px;
+		height: 400px;
+	}
+
+	.left-service p{
+		font-size: 25px;
+	}
+
+	/*Right-service*/
+	.service .right-service{
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.right-service .btn{
+		font-size: 18px;
+		padding: 8px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.right-service .collapse{
+		margin: auto;
+		font-size: 14px;
+	}
+
+	.collapsing{
+		margin: auto;
+		font-size: 14px;
+	}
+
+	/*Strat*/
+	.strat{
+		margin-top: 80px;
+	}
+
+	.strat h1{
+		text-transform: capitalize;
+		text-align: center;
+		font-weight: 900;
+		font-size: 40px;
+		font-family: "Fira-B";
+	}
+
+	.strat .cards{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 50px;
+	}
+
+	.strat .card{
+		text-align: center;
+		width: 105px;
+		height: 180px;
+		background-color: white;
+		box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .1);
+		border-radius: 10%;
+	}
+
+	.strat .card .circle{
+		clip-path: circle(70px at center 0);
+		width: 100%;
+		height: 55%;
+		background: rgb(147,168,34);
+		background: linear-gradient(152deg, rgba(147,168,34,1) 16%, rgba(127,165,34,1) 32%, rgba(130,168,34,1) 48%, rgba(176,255,0,0.944397742006959) 70%); 
+		text-align: center;
+	}
+
+	.strat .card .circle h1{
+		font-size: 25px;
+		padding: 20px 0;
+		font-family: "Fira-M";
+	}
+
+	.strat .card .text{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 40%;
+		font-size: 13px;
+		font-weight: 900;
+	}
+
+	/*Partnership*/
+	.partner{
+		margin-top: 50px;
+	}
+
+
+	/*Footer*/
+	.footer{
+		margin-top: 100px;
+		background-color: rgba(0,0,0,.9);
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-bottom: 10px;
+	}
+
+	.image-brand{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.image-brand img{
+		height: 250px;
+		width: 250px;
+		margin-top: -30px;
+	}
+
+	.image-brand p{
+		padding: 0 20px;
+		font-size: 18px;
+		color: white;
+		margin-top: -30px;
+		text-align: center;
+	}
+
+	.image-brand p span{
+		text-transform: capitalize;
+		display: block;
+		color: #82A822;
+		font-family: "Fira-B";
+	}
+
+
+	.support{
+		width: 60%;
+		height: auto;
+	}
+
+	.support h3{
+		font-family: "Fira-B";
+		padding: 20px 20px 10px;
+		color: #82A822;
+		font-size: 20px;
+	}
+
+	.support i{
+	 	font-style: normal;
+	 	display: block;
+	 	margin-left: 10px;
+	 	font-size: 18px;
+	 	padding: 10px;
+	 	color: white;
+	}
+
+	.support a{
+		text-decoration: none;
+		color: red;
+	}
+
+	.social{
+		width: 40%;
+		height: auto;
+	}
+
+	.social h3{
+		font-family: "Fira-B";
+		padding: 20px 0 5px 20px;
+		color: #82A822;
+		font-size: 20px;
+	}
+
+	.social .image i{
+		margin-left: 20px;
+		color: white;
+		font-size: 30px;
+	}
+
+	/*COPYRIGHT*/
+	.copyright{
+		height: 50px;
+		width: 100%;
+		background-color: black;
+		display: flex;
+		justify-content: center;
+	}
+
+	.copyright p{
+		font-size: 11.2px;
+		color: white;
+		padding: 25px;
+	}
+}
