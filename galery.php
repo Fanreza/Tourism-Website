@@ -1,17 +1,3 @@
-<?php 
-require_once "aset/php/fungsi.php";
-
-$code = $_GET['code'];
-
-$isi = query("SELECT * FROM tb_wisata WHERE code = '$code' ");
-
-
-
-?>
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +5,7 @@ $isi = query("SELECT * FROM tb_wisata WHERE code = '$code' ");
 	<?php include "aset/php/header.php"?>
 </head>
 <body>
+
 	<!-- Navigation Bar -->
 <nav class="navbar fixed-top navbar-expand-lg  bg-transparant">
   <div class="container-fluid">  
@@ -56,47 +43,72 @@ $isi = query("SELECT * FROM tb_wisata WHERE code = '$code' ");
   </div>
 </nav>
 
-<!-- Carousel -->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000">
-
-<?php foreach ($isi as $isian) :?>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="aset/travel-img/<?= $isian["bg1"]; ?>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="aset/travel-img/<?= $isian["bg2"]; ?>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="aset/travel-img/<?= $isian["bg3"]; ?>" class="d-block w-100" alt="...">
-    </div>
-  </div>
-<?php endforeach; ?>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </a>
+<div class="head-image">
+	<h1>Gallery</h1>	
 </div>
 
-  <?php foreach ($isi as $isian) :?>
-<div class="desc-section">
-	<div class="head-desc">
-		<h1> <?= $isian["head"] ?> </h1>
+<div class="container-image">
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>		
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
 	</div>
-
-
-	<div class="desc">
-		 <p><?= $isian["description"] ?></p>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
 	</div>
-
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image/alt.png">
+		<div class="caption">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+	</div>	
 </div>
-
-<div class="maps"><?= $isian["maps"] ?></div>
-<?php endforeach; ?>
 
 
 <!-- Footer -->
@@ -127,6 +139,7 @@ $isi = query("SELECT * FROM tb_wisata WHERE code = '$code' ");
 <div class="copyright">
 	<p>&copy; 2020 - All Right Reserved. Designed and Developed by <span><a href="">Geo Tourism Sentul</a></span></p>
 </div>
+
 
 <!-- Javasript -->
 <script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>

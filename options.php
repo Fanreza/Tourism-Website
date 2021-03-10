@@ -1,5 +1,5 @@
 <?php 
-include_once "fungsi.php";
+include_once "aset/php/fungsi.php";
 
 $isi = query("SELECT * FROM tb_opsi ");
 
@@ -13,22 +13,7 @@ $isi = query("SELECT * FROM tb_opsi ");
 <html>
 <head>
 	<title>GeoTourism Sentul</title>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-  <meta name="description" content="we are a platform for tourists who want to define their journey with a variety of experiences">
-  <meta name="keywords" content="GeoTourism Sentul,Wisata Sentul,Wisata Bogor,Tourism,Wisata Alam,GeoTourism">
-  <meta name="author" content="GeoTourism">
-  <meta property="og:title" content="GeoTourism Sentul"/>
-  <meta property="og:image" content="aset/image/logo-web.png">
-  <meta property="og:url" content="https://geotourism.rf.gd/" />
-  <meta property="og:description" content="We are a platform for tourists who want to define their journey with a variety of experiences">
-  
-  <link rel="shortcut icon" type="image/png" href="aset/image/logo-web.png" sizes="200x200">
-  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-<!--  <link href="aset/fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="aset/fontawesome/css/brands.css" rel="stylesheet">
-    <link href="aset/fontawesome/css/solid.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<?php include "aset/php/header.php"?>
 </head>
 <body>
 	<!-- Navigation Bar -->
@@ -43,13 +28,13 @@ $isi = query("SELECT * FROM tb_opsi ");
       <ul class="navbar-nav">
       
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html#home">Home</a>
+          <a class="nav-link" aria-current="page" href="index.php#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#about">About</a>
+          <a class="nav-link" href="index.php#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#service">Service</a>
+          <a class="nav-link" href="index.php#service">Service</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -60,7 +45,7 @@ $isi = query("SELECT * FROM tb_opsi ");
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="options.php">Travel Selection</a></li>
-            <li><a class="dropdown-item" href="galery.html">Galery</a></li>
+            <li><a class="dropdown-item" href="galery.php">Galery</a></li>
           </ul>
         </li>
       </ul>
