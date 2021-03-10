@@ -240,9 +240,8 @@
 
 
 <!-- Javasript -->
-<script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
-<script src="bootstrap/js/popper.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<?php include "aset/php/footer.php"; ?>
+
 <script type="text/javascript">
 	 $(window).scroll(function(){
        $('nav').toggleClass('scroll', $(this).scrollTop() > 10);
