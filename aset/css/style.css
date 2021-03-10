@@ -3,7 +3,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "Fira-R";
+	font-family: "Fira-R","Arial","sans-serif";
 }
 
 html{
@@ -13,16 +13,19 @@ html{
 @font-face{
 	font-family: "Fira-R";
 	src: url(../font/FiraSans-Regular.otf);
+	font-display: swap;
 }
 
 @font-face{
 	font-family: "Fira-M";
 	src: url(../font/FiraSans-Medium.otf);
+	font-display: swap;
 }
 
 @font-face{
 	font-family: "Fira-B";
 	src: url(../font/FiraSans-Bold.otf);
+	font-display: swap;
 }
 
 
