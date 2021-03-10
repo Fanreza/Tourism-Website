@@ -1,7 +1,7 @@
 	
 
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-	<meta name="description" content="we are a platform for tourists who want to define their journey with a variety of experiences">
+	<meta name="description" content="we are a platform for tourists who want to define their journey with a variety of experiences safsafsafwqfsdfaewdas">
 	<meta name="keywords" content="GeoTourism Sentul,Wisata Sentul,Wisata Bogor,Tourism,Wisata Alam,GeoTourism">
 	<meta name="author" content="GeoTourism">
 	
