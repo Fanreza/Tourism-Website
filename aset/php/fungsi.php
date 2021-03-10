@@ -1,7 +1,12 @@
 <?php
 session_start();
 
-$db = mysqli_connect("localhost", "root", "", "db_wisata");
+// Development Connection
+// $db = mysqli_connect("localhost", "root", "", "db_wisata");
+
+
+// Deploy Connection
+$db = mysqli_connect("remotemysql.com", "shWSmRbTRs", "86RVFNsE6r", "shWSmRbTRs");
 
 function query($query){
 	global $db;
