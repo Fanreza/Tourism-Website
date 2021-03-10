@@ -25,10 +25,14 @@ html{
 	src: url(aset/font/FiraSans-Bold.otf);
 }
 
-@font-face{
-	font-family: "Fira-EB";
-	src: url(aset/font/FiraSans-ExtraBold.otf);
-}
+
+
+
+
+
+
+/*=============================================== HOME PAGE ===============================================*/
+
 
 /*Navbar*/
 nav{
@@ -80,6 +84,37 @@ nav ul li a:hover{
 
 .bg-transparant.scroll a{
 	color: white !important;
+}
+
+.dropdown-menu{
+	background-color: rgba(0,0,0,.3) !important;
+	transition :.7s ease;
+	margin-left: 50px !important;
+	margin-top: 22px;
+}
+
+.dropdown-menu.scroll{
+	background-color: rgba(130, 168, 34,.9) !important;
+	transition :.7s ease;
+}
+
+
+
+.dropdown-menu li{
+	padding-left: 0 !important;
+	background-color: none !important;
+	padding: 10px;
+	transition :.7s ease;
+}
+
+.dropdown-menu a{
+	color: white;
+	transition :.7s ease;
+}
+
+.dropdown-menu a:hover{
+	background-color: transparent !important;
+	color: #82A822;
 }
 
 /*Carousel*/
@@ -311,7 +346,7 @@ nav ul li a:hover{
 	font-size: 16px;
 }
 
-.collapsing{
+.right-service .collapsing{
 	width: 80% !important;
 	font-size: 16px;
 }
@@ -349,7 +384,10 @@ nav ul li a:hover{
 	width: 100%;
 	height: 60%;
 	background: rgb(147,168,34);
-	background: linear-gradient(152deg, rgba(147,168,34,1) 16%, rgba(127,165,34,1) 32%, rgba(130,168,34,1) 48%, rgba(176,255,0,0.944397742006959) 70%); 
+	background: linear-gradient(152deg, rgba(147,168,34,1) 16%, 
+								rgba(127,165,34,1) 32%, 
+								rgba(130,168,34,1) 48%,
+								rgba(176,255,0,0.944397742006959) 70%); 
 	text-align: center;
 }
 
@@ -484,7 +522,220 @@ nav ul li a:hover{
 	text-decoration: none;
 }
 
-/*For Mobile max 360px width*/
+
+.copyright span a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*=============================================== OPTIONS PAGE ===============================================*/
+.jumbotron {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;	
+  height: 600px;
+  color: white;
+  background: url(aset/image/travel-bg.jpg);
+  background-repeat:no-repeat; 
+  background-size: cover;
+}
+
+
+.jumbotron p{
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.jumbotron #container-provinsi {
+  max-width: 40rem;
+  background-color: rgba(0,0,0,0.4);
+  height: auto;
+}
+
+.card-travel{
+	border-radius: 10px;
+}
+
+.col-md-6 img{
+	height: 280px;
+	border-radius: 10px 10px 0 0 ;
+}
+
+.col-md-6 .card-title{
+	font-weight: 700;
+}
+
+.btn-group a{
+	background-color: #82A822;
+	font-family: "Fira-B";
+	color: white;
+	width: 150px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.btn-group a:hover{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================== TRAVEL PAGE ===============================================*/
+.desc-section{
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.head-desc{
+	padding: 20px;
+}
+
+.desc{
+	width: 90%;
+}
+
+.desc p{
+	font-size: 20px;
+}
+
+.maps{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.maps iframe{
+	width: 1000px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+/*=============================================== IMAGE GALLERY PAGE /*===============================================*/
+.head-image{
+	margin-top: 150px;
+	text-align: center;
+}
+
+.container-image { 
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 10px;
+  margin: auto;
+  width: 90%;
+  justify-content: center;
+}
+  
+.container-image img {
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-image .image{
+	position: relative;
+	display: flex;
+}
+
+.container-image .image .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	display: flex;
+	opacity: 0;
+	transition: all .8s ease;
+	justify-content: center;
+}
+
+
+.container-image .image p{
+	width: 70%;
+	color: #82a42b;
+	align-self: center;
+	text-align: center;
+}
+
+.container-image .image:hover img{
+	filter: brightness(50%);
+}
+
+.image:hover .caption{
+	opacity: 1 !important;
+	background-color: rgba(0,0,0,.8);
+}
+
+.container-image .image:nth-child(1){
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;	
+}
+
+.container-image .image:nth-child(8){
+	grid-column-start: 1;
+	grid-column-end: span 2;	
+}
+
+.container-image .image:nth-child(9){
+	grid-column-start: 3;
+	grid-column-end: span 2;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================== For Mobile max 360px width ===============================================*/
+/*=============================================== *//*=============================================== *//*=============================================== */
+/*=============================================== *//*=============================================== *//*=============================================== */
+/*=============================================== *//*=============================================== *//*=============================================== */
 @media(min-width: 360px) and (max-width: 453px){
 
 
@@ -704,7 +955,10 @@ nav ul li a:hover{
 		width: 100%;
 		height: 55%;
 		background: rgb(147,168,34);
-		background: linear-gradient(152deg, rgba(147,168,34,1) 16%, rgba(127,165,34,1) 32%, rgba(130,168,34,1) 48%, rgba(176,255,0,0.944397742006959) 70%); 
+		background: linear-gradient(152deg, rgba(147,168,34,1) 16%, 
+									rgba(127,165,34,1) 32%, 
+									rgba(130,168,34,1) 48%, 
+									rgba(176,255,0,0.944397742006959) 70%); 
 		text-align: center;
 	}
 
@@ -834,12 +1088,51 @@ nav ul li a:hover{
 		color: white;
 		padding: 25px 0;
 	}
+
+	/*gallery*/
+	.container-image { 
+	  display: grid;
+	  grid-template-columns: repeat(1,100%);
+	  grid-gap: 10px;
+	  margin: auto;
+	  width: 90%;
+	  justify-content: center;
+	}
+
+	.container-image .image:nth-child(1){
+		grid-row-start: auto;
+		grid-row-end: auto;
+		grid-column-start: auto;
+		grid-column-end: auto;	
+	}
+
+	.container-image .image:nth-child(8){
+		grid-column-start: auto;
+		grid-column-end: span auto;	
+		grid-column-start: auto;
+		grid-column-end: auto;	
+	}
+
+	.container-image .image:nth-child(9){
+		grid-column-start: auto;
+		grid-column-end: span auto;	
+		grid-column-start: auto;
+		grid-column-end: auto;	
+	}
 }
 
 
-/*For Mobile 454px width*/
-@media(min-width: 454px) and (max-width: 500px){
 
+
+
+
+ /*=============================================== For Mobile 454px width ===============================================*/
+ /*=============================================== *//*=============================================== *//*=============================================== */
+ /*=============================================== *//*=============================================== *//*=============================================== */
+ /*=============================================== *//*=============================================== *//*=============================================== */
+ /*=============================================== *//*=============================================== *//*=============================================== */
+
+@media(min-width: 454px) and (max-width: 500px){
 
 	/*Navbar Responsive*/
 	.navbar-brand{
@@ -1047,7 +1340,10 @@ nav ul li a:hover{
 		width: 100%;
 		height: 55%;
 		background: rgb(147,168,34);
-		background: linear-gradient(152deg, rgba(147,168,34,1) 16%, rgba(127,165,34,1) 32%, rgba(130,168,34,1) 48%, rgba(176,255,0,0.944397742006959) 70%); 
+		background: linear-gradient(152deg, rgba(147,168,34,1) 16%, 
+									rgba(127,165,34,1) 32%, 
+									rgba(130,168,34,1) 48%, 
+									rgba(176,255,0,0.944397742006959) 70%); 
 		text-align: center;
 	}
 
@@ -1172,4 +1468,37 @@ nav ul li a:hover{
 		color: white;
 		padding: 25px;
 	}
+
+
+		/*gallery*/
+	.container-image { 
+	  display: grid;
+	  grid-template-columns: repeat(1,100%);
+	  grid-gap: 10px;
+	  margin: auto;
+	  width: 90%;
+	  justify-content: center;
+	}
+
+	.container-image .image:nth-child(1){
+		grid-row-start: auto;
+		grid-row-end: auto;
+		grid-column-start: auto;
+		grid-column-end: auto;	
+	}
+
+	.container-image .image:nth-child(8){
+		grid-column-start: auto;
+		grid-column-end: span auto;	
+		grid-column-start: auto;
+		grid-column-end: auto;	
+	}
+
+	.container-image .image:nth-child(9){
+		grid-column-start: auto;
+		grid-column-end: span auto;	
+		grid-column-start: auto;
+		grid-column-end: auto;	
+	}
 }
+
