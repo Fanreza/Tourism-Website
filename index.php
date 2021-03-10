@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>GeoTourism Sentul</title>
-	<?php include "aset/php/header.php"?>
+	<?php include "aset/php/header.php";?>
 </head>
 <body>
 
