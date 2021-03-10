@@ -540,7 +540,7 @@ nav ul li a:hover{
   margin-bottom: 0;	
   height: 600px;
   color: white;
-  background: url(aset/image/travel-bg.jpg);
+  background: url(../image/travel-bg.jpg);
   background-repeat:no-repeat; 
   background-size: cover;
 }
