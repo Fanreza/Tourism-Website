@@ -77,7 +77,7 @@
 	<section class="about">	
 		<div class="images">
 			<div class="image">
-				<img src="aset/image/image-galery.png">
+				<img src="aset/image/image-galery.webp">
 				<p style="">Develop Conversation</p>
 			</div>
 
