@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>GeoTourism Sentul</title>
-	<?php include "aset/php/header.php";?>
+	<?php include "aset/php/header.php"; ?>
 </head>
 <body>
 
@@ -54,14 +54,14 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="aset/image/bg2.jpg"  alt="...">
+      <img src="aset/image/bg2.webp"  alt="...">
       <div class="caption">
       	<h2>Tourist Attractions</h2>
       	<p>Local attractions that give a tourist impression</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="aset/image/bg3.jpg" alt="...">
+      <img src="aset/image/bg3.webp" alt="...">
       <div class="caption">
       	<h2>Professional Guide</h2>
       	<p>travel experience assisted by the direction of a professional guide</p>
@@ -82,17 +82,17 @@
 			</div>
 
 			<div class="image">
-				<img src="aset/image/image-galery2.jpg">
+				<img src="aset/image/image-galery2.webp">
 				<p style="">Bring Benefit for Local People</p>
 			</div>
 
 			<div class="image">
-				<img src="aset/image/image-galery5.jpg">
+				<img src="aset/image/image-galery5.webp">
 				<p style="">Save Culture</p>
 			</div>
 
 			<div class="image">
-				<img src="aset/image/image-galery4.jpg">
+				<img src="aset/image/image-galery4.webp">
 				<p style="">Save Nature</p>
 			</div>
 			
@@ -108,22 +108,22 @@
 <div class="service" id="service">
 	<div class="left-service">
 		<div class="image">
-			<img src="aset/image/image-service1.jpg">
+			<img src="aset/image/image-service1.webp">
 			<p>Your</p>
 		</div>
 
 		<div class="image">
-			<img src="aset/image/image-service2.jpg">
+			<img src="aset/image/image-service2.webp">
 			<p>wish is</p>
 		</div>
 
 		<div class="image">
-			<img src="aset/image/image-service3.jpg">
+			<img src="aset/image/image-service3.webp">
 			<p>our</p>
 		</div>
 
 		<div class="image">
-			<img src="aset/image/image-service4.jpg">
+			<img src="aset/image/image-service4.webp">
 			<p style="color: #82A822">priority</p>
 		</div>
 	</div>
