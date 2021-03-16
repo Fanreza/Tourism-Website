@@ -9,9 +9,9 @@
 <!-- Navigation Bar -->
 <nav class="navbar fixed-top navbar-expand-lg  bg-transparant">
   <div class="container-fluid">  
-  	<a class="navbar-brand" href="#" style="color: white; padding-left: 50px; font-size: 15px;"><img src="aset/image/logo-web.png" width="70px">Geo Tourism</a>
+  	<a class="navbar-brand" href="#" style="color: white; padding-left: 50px; font-size: 15px;"><img src="aset/image/logo-web.png" width="70px" height="70px">Geo Tourism</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="aset/image/menu-bar.png" style="width: 30px;">
+      <img src="aset/image/menu-bar.png" style="width: 30px;height: 30px;">
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -47,7 +47,7 @@
 <div id="home" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="aset/image/bg1.jpg"  alt="...">
+      <img src="aset/image/bg1.webp"  alt="...">
       <div class="caption">
       	<h2>Accommodation</h2>
       	<p>A wide selection of hotels, restaurants, resorts and homestays close to selected attractions</p>
