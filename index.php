@@ -11,12 +11,11 @@
   <div class="container-fluid">  
   	<a class="navbar-brand" href="#" style="color: white; padding-left: 50px; font-size: 15px;"><img src="aset/image/logo-web.png" width="70px" height="70px">Geo Tourism</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="aset/image/menu-bar.png" style="width: 30px;height: 30px;">
+      <img src="aset/image/menu-bar.png" style="width: 30px; height: 30px;">
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-      
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#home">Home</a>
         </li>
@@ -129,49 +128,53 @@
 	</div>
 
 	<div class="right-service">
-		<div class="head-service">what you got</div>
-		<p>
-		  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-		    local accommodation
-		  </button>
-		</p>
-		<div class="collapse" id="collapseExample1">
-		  <div class="card card-body" style="margin-bottom: 15px;">
-		  	Places to stay for tourists that are closest to the tour of choice. with a variety of hotels, resorts, homestays and traditional residents' homes
-		  </div>
-		</div>
+		<h1 class="head-service">what you got</h1>
+		<div class="collapse-box">
+			<p>
+			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+			    local accommodation
+			  </button>
+			</p>
+			<div class="text-collapse">
+				<div class="collapse text-center" id="collapseExample1">
+			  <div class="card card-body" style="margin-bottom: 15px;">
+			  	Places to stay for tourists that are closest to the tour of choice. with a variety of hotels, resorts, homestays and traditional residents' homes
+			  </div>
+			</div>
+			</div>
 
-		<p>
-		  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-		    experience local culture
-		  </button>
-		</p>
-		<div class="collapse" id="collapseExample2">
-		  <div class="card card-body" style="margin-bottom: 15px;">
-		  	Cultural experience by being directly involved with local community activities such as culture and arts. visits to temples, watching dance arts, visits to museums / historical sites or traditional sites, and other art and cultural performances.
-		  </div>
-		</div>
+			<p>
+			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+			    experience local culture
+			  </button>
+			</p>
+			<div class="collapse" id="collapseExample2">
+			  <div class="card card-body" style="margin-bottom: 15px;">
+			  	Cultural experience by being directly involved with local community activities such as culture and arts. visits to temples, watching dance arts, visits to museums / historical sites or traditional sites, and other art and cultural performances.
+			  </div>
+			</div>
 
-		<p>
-		  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-		    experience local cuisine
-		  </button>
-		</p>
-		<div class="collapse" id="collapseExample3">
-		  <div class="card card-body" style="margin-bottom: 15px;">
-		  	Experience local flavors with a wide selection of local restaurants close to selected tourist attractions
-		  </div>
-		</div>
+			<p>
+			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+			    experience local cuisine
+			  </button>
+			</p>
+			<div class="collapse" id="collapseExample3">
+			  <div class="card card-body" style="margin-bottom: 15px;">
+			  	Experience local flavors with a wide selection of local restaurants close to selected tourist attractions
+			  </div>
+			</div>
 
-		<p>
-		  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-		    sports experience
-		  </button>
-		</p>
-		<div class="collapse" id="collapseExample4">
-		  <div class="card card-body" style="margin-bottom: 15px;">
-		  	Experience sports such as rafting, hiking and climbing. of course we also provide traditional sports that are interesting to follow
-		  </div>
+			<p>
+			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+			    sports experience
+			  </button>
+			</p>
+			<div class="collapse" id="collapseExample4">
+			  <div class="card card-body" style="margin-bottom: 15px;">
+			  	Experience sports such as rafting, hiking and climbing. of course we also provide traditional sports that are interesting to follow
+			  </div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -205,6 +208,13 @@
 <!-- PARTNERSHIP -->
 <div class="partner">
 	<div class="head"><h1>Partnership With</h1></div>
+
+
+	<div class="image-partner">
+		<div class="image">
+			<img src="aset/image/sentultrekking.png">
+		</div>
+	</div>
 </div>
 
 

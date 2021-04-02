@@ -13,7 +13,7 @@ $isi = query("SELECT * FROM tb_opsi ");
 <html>
 <head>
 	<title>GeoTourism Sentul</title>
-	<?php include "aset/php/header.php"?>
+	<?php include "aset/php/header.php";?>
 </head>
 <body>
 	<!-- Navigation Bar -->
