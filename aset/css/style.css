@@ -55,10 +55,12 @@ nav ul li a{
 	color: white;
 	letter-spacing: 2px;
 	font-family: "Fira-M";
+
 }
 
 nav ul li a:hover{
 	color: #82A822;
+	transition: .5s all ease;
 }
 
 .navbar a,.navbar {
@@ -123,6 +125,7 @@ nav ul li a:hover{
 /*Carousel*/
 .carousel-inner{
 	position: relative;
+	width: 100%;
 }
 
 .carousel-inner img{
@@ -291,8 +294,9 @@ nav ul li a:hover{
 	justify-content: center;
 }
 
-.left-service img{
+.left-service .image img{
 	width: 180px;
+	height: 100%;
 	filter: brightness(70%);
 }
 
@@ -322,6 +326,11 @@ nav ul li a:hover{
 	font-size: 30px;
 	padding: 20px;
 	font-family: "Fira-B";
+	text-align: center;
+}
+
+.right-service .collapse-box{
+	text-align: center;
 }
 
 .right-service .btn{
@@ -344,14 +353,20 @@ nav ul li a:hover{
 	border-radius: 5px;
 }
 
+.right-service .text-collapse{
+	text-align: center;
+}
+
 .right-service .collapse{
 	width: 80%;
 	font-size: 16px;
+	margin: 0 auto;
 }
 
 .right-service .collapsing{
 	width: 80% !important;
 	font-size: 16px;
+	margin: 0 auto;
 }
 
 /*STRATEGIC SECTION*/
@@ -420,6 +435,26 @@ nav ul li a:hover{
 	font-family: "Fira-B";
 }
 
+.partner .image-partner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.partner .image-partner .image{
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .1);
+	background-color: white;
+	margin: 20px;
+	border-radius: 5px;
+	border-top: 5px solid #82A822;
+}
+
+.partner .image-partner img{
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+}
 
 /*FOOTER*/
 .footer{
@@ -770,7 +805,7 @@ nav ul li a:hover{
 	}
 
 	.carousel-inner img{
-		width: inherit;
+		width: 100%;
 	}
 
 	.carousel-inner .caption h2{
@@ -887,7 +922,7 @@ nav ul li a:hover{
 		margin: 0 20px 0; 
 	}
 
-	.left-service img{
+	.left-service .image img{
 		width: 80px;
 		height: 400px;
 	}
@@ -1159,7 +1194,8 @@ nav ul li a:hover{
 	}
 
 	.carousel-inner img{
-		width: inherit;
+		width: 100%;
+		height: 550px;
 	}
 
 	.carousel-inner .caption h2{
@@ -1276,7 +1312,7 @@ nav ul li a:hover{
 		margin: 0 20px 0; 
 	}
 
-	.left-service img{
+	.left-service .image img{
 		width: 100px;
 		height: 400px;
 	}
