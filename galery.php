@@ -49,15 +49,39 @@
 
 <div class="container-image">
 	<div class="image">
-		<img src="aset/image/alt.png">
+		<img src="aset/image-gallery/camp.jpeg">
 		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			<p>An outdoor camping place with a natural atmosphere </p>
 		</div>
 	</div>		
 	<div class="image">
-		<img src="aset/image/alt.png">
+		<img src="aset/image-gallery/rafting.jpeg">
 		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			<p>Preparation before rafting together </p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image-gallery/playground.jpeg">
+		<div class="caption">
+			<p>Outbound tours for children </p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image-gallery/sport-trail.jpeg">
+		<div class="caption">
+			<p>Sport trail cross at Sentul Indonesia</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image-gallery/water-springs.jpeg">
+		<div class="caption">
+			<p>Sentul natural springs</p>
+		</div>
+	</div>
+	<div class="image">
+		<img src="aset/image-gallery/shelter.jpeg">
+		<div class="caption">
+			<p>Shelter after a tired day of traveling </p>
 		</div>
 	</div>
 	<div class="image">
@@ -67,39 +91,15 @@
 		</div>
 	</div>
 	<div class="image">
-		<img src="aset/image/alt.png">
+		<img src="aset/image-gallery/rice-field.jpeg">
 		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			<p>Experience the process of growing rice in the modern era</p>
 		</div>
 	</div>
 	<div class="image">
-		<img src="aset/image/alt.png">
+		<img src="aset/image-gallery/vehicle.jpeg">
 		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-		</div>
-	</div>
-	<div class="image">
-		<img src="aset/image/alt.png">
-		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-		</div>
-	</div>
-	<div class="image">
-		<img src="aset/image/alt.png">
-		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-		</div>
-	</div>
-	<div class="image">
-		<img src="aset/image/alt.png">
-		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-		</div>
-	</div>
-	<div class="image">
-		<img src="aset/image/alt.png">
-		<div class="caption">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			<p>Vehicle preparation for tourists to travel </p>
 		</div>
 	</div>
 	<div class="image">
@@ -111,48 +111,7 @@
 </div>
 
 
-<!-- Footer -->
-<div class="footer" id="contact">
-	<div class="image-brand">
-		<img src="aset/image/logo-web.png">
-		<p>We provide the best service, work quickly, accurately, and professionally. <span>what you want is what you get</span></p>
-	</div>
-
-	<div class="support">
-		<h3>Customer Support </h3>
-		<i class="bi bi-geo-alt-fill"> Sentul Nirwana</i>
-		<i class="bi bi-telephone-fill"> 08111036811</i>
-		<a href=""><i class="bi bi-whatsapp"> 08111036811</i></a>
-		<i class="bi bi-envelope-fill"> hikingsentul@gmail.com</i>
-		<a href=""><i class="bi bi-question-circle-fill"> FAQ</i></a>
-	</div>
-
-	<div class="social">
-		<h3>Social Media</h3>
-		<div class="image">
-			<i class="bi bi-instagram"></i>
-		</div>	
-	</div>
-</div>
-
-<!-- COPYRIGHT -->
-<div class="copyright">
-	<p>&copy; 2020 - All Right Reserved. Designed and Developed by <span><a href="">Geo Tourism Sentul</a></span></p>
-</div>
-
-
-<!-- Javasript -->
 <?php include "aset/php/footer.php"; ?>
 
-<script type="text/javascript">
-	 $(window).scroll(function(){
-       $('nav').toggleClass('scroll', $(this).scrollTop() > 10);
-       });
-
-	 $(window).scroll(function(){
-       $('ul').toggleClass('scroll', $(this).scrollTop() > 10);
-       });
-
-</script>
 </body>
 </html>

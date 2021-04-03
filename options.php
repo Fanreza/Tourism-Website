@@ -7,8 +7,6 @@ $isi = query("SELECT * FROM tb_opsi ");
 
 
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,48 +89,8 @@ $isi = query("SELECT * FROM tb_opsi ");
 
 
 <!-- Footer -->
-<div class="footer" id="contact">
-  <div class="image-brand">
-    <img src="aset/image/logo-web.png">
-    <p>We provide the best service, work quickly, accurately, and professionally. <span>what you want is what you get</span></p>
-  </div>
-
-  <div class="support">
-    <h3>Customer Support </h3>
-    <i class="bi bi-geo-alt-fill"> Sentul Nirwana</i>
-    <i class="bi bi-telephone-fill"> 08111036811</i>
-    <a href=""><i class="bi bi-whatsapp"> 08111036811</i></a>
-    <i class="bi bi-envelope-fill"> hikingsentul@gmail.com</i>
-    <a href=""><i class="bi bi-question-circle-fill"> FAQ</i></a>
-  </div>
-
-  <div class="social">
-    <h3>Social Media</h3>
-    <div class="image">
-      <i class="bi bi-instagram"></i>
-    </div>  
-  </div>
-</div>
-
-<!-- COPYRIGHT -->
-<div class="copyright">
-  <p>&copy; 2020 - All Right Reserved. Designed and Developed by <span><a href="">Geo Tourism Sentul</a></span></p>
-</div>
-
-
-<!-- Javascript -->
 <?php include "aset/php/footer.php"; ?>
 
-<script type="text/javascript">
-	 $(window).scroll(function(){
-       $('nav').toggleClass('scroll', $(this).scrollTop() > 10);
-       });
-
-	 $(window).scroll(function(){
-       $('ul').toggleClass('scroll', $(this).scrollTop() > 10);
-       });
-
-</script>
 
 </body>
 </html>
