@@ -12,7 +12,9 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="GeoTourism Sentul">
 	<meta property="og:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
-	<meta property="og:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> -->
+	<meta property="og:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> 
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">-->
 
 	<!-- For Develope -->
 	<meta property="og:url" content="https://geotourism.herokuapp.com">
@@ -20,6 +22,8 @@
 	<meta property="og:title" content="GeoTourism Sentul">
 	<meta property="og:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
 	<meta property="og:image" content="https://geotourism.herokuapp.com/aset/image/logo-web.png">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">
 
 	<!-- Open Graph Twitter Meta Tags -->
 	<!-- For Deploy -->
@@ -28,7 +32,9 @@
 	<meta property="twitter:url" content="https://https://geotourism.rf.gd">
 	<meta name="twitter:title" content="GeoTourism Sentul">
 	<meta name="twitter:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
-	<meta name="twitter:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> -->
+	<meta name="twitter:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> 
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">	-->
 
 	<!-- For Develope -->
 	<meta name="twitter:card" content="summary">
@@ -37,6 +43,8 @@
 	<meta name="twitter:title" content="GeoTourism Sentul">
 	<meta name="twitter:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
 	<meta name="twitter:image" content="https://geotourism.herokuapp.com/aset/image/logo-web.png">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">
 
 
 	<!-- Link For CSS and ICON -->
