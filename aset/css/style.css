@@ -691,7 +691,7 @@ nav ul li a:hover{
   display: grid;
   grid-template-columns: repeat(5,1fr);
   grid-gap: 10px;
-  margin: auto;
+  margin: 50px auto;
   width: 90%;
   justify-content: center;
 }
