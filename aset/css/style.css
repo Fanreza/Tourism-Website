@@ -36,7 +36,6 @@ html{
 
 /*=============================================== HOME PAGE ===============================================*/
 
-
 /*Navbar*/
 nav{
 	font-size: 16px;
@@ -48,30 +47,33 @@ nav{
 }
 
 nav ul li{
-	padding-left: 50px;
+	padding-left: 30px;
+	transition: .7s all ease;
 }
 
 nav ul li a{
 	color: white;
-	letter-spacing: 2px;
 	font-family: "Fira-M";
-
+	padding: 5px 20px !important;
+	border-radius: 7px;
+	transition: .7s all ease;	
 }
 
 nav ul li a:hover{
-	color: #82A822;
-	transition: .5s all ease;
-}
-
-.navbar a,.navbar {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+	color: #010101;
+	background-color: #82A822;
 }
 
 .navbar {
-   min-height: 40px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    transition: .7s all ease;
+    min-height: 40px !important;
 }
 
+ul.navbar-nav a.nav-link{
+	transition: .7s all ease;
+}
 
 
 .bg-transparant {
@@ -82,14 +84,17 @@ nav ul li a:hover{
     background-color: rgba(130, 168, 34,.9) !important;
 }
 
+
+
 .navbar-nav.scroll a:hover{
-	background-color: rgba(0,0,0,.0) !important;
-	color: black !important;
+	background-color: #010101 !important;
 }
 
 .bg-transparant.scroll a{
 	color: white !important;
 }
+
+
 
 .dropdown-menu{
 	background-color: rgba(0,0,0,.3) !important;
@@ -104,9 +109,8 @@ nav ul li a:hover{
 }
 
 
-
 .dropdown-menu li{
-	padding-left: 0 !important;
+	padding: 0 !important;
 	background-color: none !important;
 	padding: 10px;
 	transition :.7s ease;
@@ -115,11 +119,13 @@ nav ul li a:hover{
 .dropdown-menu a{
 	color: white;
 	transition :.7s ease;
+	border-radius: 0 !important;
 }
 
 .dropdown-menu a:hover{
-	background-color: transparent !important;
-	color: #82A822;
+	background-color: #82A822 !important;
+	color: #010101;
+	border-radius: 0 !important;
 }
 
 /*Carousel*/
@@ -246,6 +252,7 @@ nav ul li a:hover{
 
 
 .about .image p{
+	text-align: center;
 	color: white;
 	padding: 35px;
 	font-size: 18px;
@@ -514,6 +521,7 @@ nav ul li a:hover{
  	font-size: 20px;
  	padding: 10px;
  	color: white;
+ 	font-display: swap;
 }
 
 .support a{
@@ -538,6 +546,7 @@ nav ul li a:hover{
 	margin-left: 20px;
 	color: white;
 	font-size: 40px;
+	font-display: swap;
 }
 
 /*COPYRIGHT*/
@@ -759,6 +768,122 @@ nav ul li a:hover{
 
 
 
+/*=============================================== /*FAQ Page*/ /*===============================================
+
+
+/*Jumbotron FAQ*/
+.jumbotron-faq{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.jumbotron-text{
+	width: 50%;
+}
+
+.jumbotron-text h1{
+	font-size: 25px;
+	text-align: center;
+}
+
+.jumbotron-text span{
+	color: #82A822;
+}
+
+
+/*FAQ List*/
+.faq-lists{
+	margin-top: 50px;
+}
+
+.accordion .accordion-item{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion .accordion-item button{
+	background-color: #82A822;
+	color: white;
+	font-family: "Fira-B";
+	font-size: 20px;
+}
+
+
+
+/*FAQ Contact Section*/
+.faq-head{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.faq-head h1{
+	font-size: 25px;
+}
+
+.faq-head span{
+	color: #82A822;
+}
+
+.faq-contact{
+	flex-wrap: wrap;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.faq-contact .contact{
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 200px;
+	border: 5px solid #82A822;
+}
+
+.contact .contact-image{
+	width: 100%;
+	height: 80%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.contact .contact-image img{
+	width: 100px;
+	height: 100px;
+}
+
+.contact .contact-text{
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.contact .contact-text a{
+	color: #82A822;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.contact .contact-text a:hover{
+	text-decoration: underline;
+}
+
+
 
 
 
@@ -918,6 +1043,8 @@ nav ul li a:hover{
 
 	/*Left-Service*/
 	.service .left-service{
+		display: flex;
+		justify-content: center;
 		width: 100%;
 		margin: 0 20px 0; 
 	}
@@ -1170,7 +1297,7 @@ nav ul li a:hover{
  /*=============================================== *//*=============================================== *//*=============================================== */
  /*=============================================== *//*=============================================== *//*=============================================== */
 
-@media(min-width: 454px) and (max-width: 500px){
+@media(min-width: 454px) and (max-width: 700px){
 
 	/*Navbar Responsive*/
 	.navbar-brand{
@@ -1308,6 +1435,8 @@ nav ul li a:hover{
 
 	/*Left-Service*/
 	.service .left-service{
+		display: flex;
+		justify-content: center;
 		width: 100%;
 		margin: 0 20px 0; 
 	}
