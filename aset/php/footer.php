@@ -1,4 +1,4 @@
-	<!-- Footer -->
+		<!-- Footer -->
 	<div class="footer" id="contact">
 		<div class="image-brand">
 			<img src="aset/image/logo-web.png">
@@ -8,10 +8,10 @@
 		<div class="support">
 			<h3>Customer Support </h3>
 			<i class="bi bi-geo-alt-fill"> Sentul Nirwana</i>
-			<i class="bi bi-telephone-fill"> 08111036811</i>
+			<a href="tel:+628111036811"><i class="bi bi-telephone-fill"> 08111036811</i></a>
 			<a href="https://wa.me/628111036811" target="_blank"><i class="bi bi-whatsapp"> 08111036811</i></a>
-			<i class="bi bi-envelope-fill"> hikingsentul@gmail.com</i>
-			<a href=""><i class="bi bi-question-circle-fill"> FAQ</i></a>
+			<a href="mailto:hikingsentul@gmail.com"><i class="bi bi-envelope-fill"> hikingsentul@gmail.com</i></a>
+			<a href="././faq.php"><i class="bi bi-question-circle-fill"> FAQ</i></a>
 		</div>
 
 		<div class="social">
