@@ -5,6 +5,7 @@
 	<meta name="description" content="we are a platform for tourists who want to define their journey with a variety of experiences">
 	<meta name="keywords" content="GeoTourism Sentul,Wisata Sentul,Wisata Bogor,Tourism,Wisata Alam,GeoTourism">
 	<meta name="author" content="GeoTourism">
+	<meta name="google-site-verification" content="AC2VEW-oUpagQQ-Myg0eq3kGX9B48h1BWsVP8KZG2IY" />
 
 	<!-- Open Graph Meta Tags -->
 	<!-- For Deploy-->
@@ -12,9 +13,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="GeoTourism Sentul">
 	<meta property="og:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
-	<meta property="og:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> 
-	<meta property="og:image:width" content="300">
-	<meta property="og:image:height" content="300">-->
+	<meta property="og:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> -->
 
 	<!-- For Develope -->
 	<meta property="og:url" content="https://geotourism.herokuapp.com">
@@ -22,8 +21,6 @@
 	<meta property="og:title" content="GeoTourism Sentul">
 	<meta property="og:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
 	<meta property="og:image" content="https://geotourism.herokuapp.com/aset/image/logo-web.png">
-	<meta property="og:image:width" content="300">
-	<meta property="og:image:height" content="300">
 
 	<!-- Open Graph Twitter Meta Tags -->
 	<!-- For Deploy -->
@@ -32,9 +29,7 @@
 	<meta property="twitter:url" content="https://https://geotourism.rf.gd">
 	<meta name="twitter:title" content="GeoTourism Sentul">
 	<meta name="twitter:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
-	<meta name="twitter:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> 
-	<meta property="og:image:width" content="300">
-	<meta property="og:image:height" content="300">	-->
+	<meta name="twitter:image" content="https://https://geotourism.rf.gd/aset/image/logo-web.png"> -->
 
 	<!-- For Develope -->
 	<meta name="twitter:card" content="summary">
@@ -43,14 +38,20 @@
 	<meta name="twitter:title" content="GeoTourism Sentul">
 	<meta name="twitter:description" content="We are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed.">
 	<meta name="twitter:image" content="https://geotourism.herokuapp.com/aset/image/logo-web.png">
-	<meta property="og:image:width" content="300">
-	<meta property="og:image:height" content="300">
 
 
 	<!-- Link For CSS and ICON -->
 	<link rel="shortcut icon" type="image/png" href="aset/image/logo-web.png" sizes="200x200">
+	<!-- For Deploy -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="aset/css/style.css">
+
+	<!-- For Develope -->
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<?php require "allcss.php"?> -->
+
+
+	<!-- Bootstrap Icon -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 	<!-- Fontawesome -->
