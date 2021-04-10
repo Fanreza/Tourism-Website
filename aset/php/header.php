@@ -48,7 +48,7 @@
 
 	<!-- For Develope -->
 	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<?php require "allcss.php"?> -->
+	
 
 
 	<!-- Bootstrap Icon -->
