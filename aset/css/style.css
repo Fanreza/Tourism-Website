@@ -164,18 +164,21 @@ ul.navbar-nav a.nav-link{
 	bottom: 40%; 
 	left: 33%; 
 	width: 565px;
+	text-align: center;
 }
 
 .carousel-item:nth-child(2) .caption{
 	bottom: 40%; 
 	left: 50%; 
 	width: 650px;
+	text-align: right;
 }
 
 .carousel-item:nth-child(3) .caption{
 	bottom: 40%; 
 	left: 10%; 
 	width: 680px;
+	text-align: left;
 }
 
 @keyframes fade{
