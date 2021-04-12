@@ -17,24 +17,24 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#about">Tentang Kami</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#service">Service</a>
+          <a class="nav-link" href="#service">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact">Kontak</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
+            Lainya
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="options.php">Travel Selection</a></li>
-            <li><a class="dropdown-item" href="galery.php">Galery</a></li>
+            <li><a class="dropdown-item" href="select.php">Pilihan Wisata</a></li>
+            <li><a class="dropdown-item" href="galery.php">Galeri</a></li>
           </ul>
         </li>
       </ul>
@@ -48,22 +48,22 @@
     <div class="carousel-item active">
       <img src="aset/image/bg1.webp"  alt="...">
       <div class="caption">
-      	<h2>Accommodation</h2>
-      	<p>A wide selection of hotels, restaurants, resorts and homestays close to selected attractions</p>
+      	<h2>Akomodasi</h2>
+      	<p>Beragam akomodasi mulai dari hotel, restoran, resort, dan hoemstay yang dekat dengan lokasi wisata pilihan</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="aset/image/bg2.webp"  alt="...">
       <div class="caption">
-      	<h2>Tourist Attractions</h2>
-      	<p>Local attractions that give a tourist impression</p>
+      	<h2>Atraksi Lokal</h2>
+      	<p>Ragam atraksi lokal yang memberikan kesan wisata alami</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="aset/image/bg3.webp" alt="...">
       <div class="caption">
       	<h2>Professional Guide</h2>
-      	<p>travel experience assisted by the direction of a professional guide</p>
+      	<p>Ditemani dengan para guide profesional yang menambah keseruan wisata</p>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@
 		</div>
 
 		<article class="nav-article">
-			<p>" we are a platform for tourists who want to define their journey with a variety of experiences, we allow travelers to determine their own accommodation needed. "</p>
+			<p>" GeoTourism Sentul adalah platform bagi para wisatawan yang ingin mendapatkan pengalaman wisata alam yang aman dan menyenangkan, kami juga memiliki banyak pilihan akomodasi yang dekat dengan wisata pilihan. "</p>
 		</article>
 	</section>
 </div>
@@ -128,51 +128,51 @@
 	</div>
 
 	<div class="right-service">
-		<h1 class="head-service">what you got</h1>
+		<h1 class="head-service">yang kamu dapatkan</h1>
 		<div class="collapse-box">
 			<p>
 			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-			    local accommodation
+			    akomodasi lokal
 			  </button>
 			</p>
 			<div class="text-collapse">
 				<div class="collapse text-center" id="collapseExample1">
 			  <div class="card card-body" style="margin-bottom: 15px;">
-			  	Places to stay for tourists that are closest to the tour of choice. with a variety of hotels, resorts, homestays and traditional residents' homes
+			  	Beragam akomodasi dengan berbagai pilihan hotel,resort,homestay,dan restoran yang dekat dengan wisata alam pilihan.
 			  </div>
 			</div>
 			</div>
 
 			<p>
 			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-			    experience local culture
+			    pengalaman budaya lokal
 			  </button>
 			</p>
 			<div class="collapse" id="collapseExample2">
 			  <div class="card card-body" style="margin-bottom: 15px;">
-			  	Cultural experience by being directly involved with local community activities such as culture and arts. visits to temples, watching dance arts, visits to museums / historical sites or traditional sites, and other art and cultural performances.
+			  	Pengalaman budaya lokal dengan terlibat langsung dalam kegiatan masyarakat lokal seperti kunjungan ke situs sejarah,menonton pertunjukan lokal, bahkan merasakan bagaimana menanam padi secara langsung.
 			  </div>
 			</div>
 
 			<p>
 			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-			    experience local cuisine
+			    pengalaman hidangan lokal
 			  </button>
 			</p>
 			<div class="collapse" id="collapseExample3">
 			  <div class="card card-body" style="margin-bottom: 15px;">
-			  	Experience local flavors with a wide selection of local restaurants close to selected tourist attractions
+			  	Rasakan pengalaman menyantap hidangan lokal di restoran restoran pilihan yang dekat dengan lokasi wisata.
 			  </div>
 			</div>
 
 			<p>
 			  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-			    sports experience
+			   	pengalaman olahraga
 			  </button>
 			</p>
 			<div class="collapse" id="collapseExample4">
 			  <div class="card card-body" style="margin-bottom: 15px;">
-			  	Experience sports such as rafting, hiking and climbing. of course we also provide traditional sports that are interesting to follow
+			  	Pengalaman melakukan wisata olahraga seperti arung jeram,hiking, dan panjat tebing.
 			  </div>
 			</div>
 		</div>
@@ -185,22 +185,22 @@
 	<div class="cards">
 		<div class="card">
 			<div class="circle"><h1>100</h1></div>
-			<div class="text">Accommodation</div>
+			<div class="text">Akomodasi</div>
 		</div>
 
 		<div class="card">
 			<div class="circle"><h1>80</h1></div>
-			<div class="text">Transportation</div>
+			<div class="text">Transportasi</div>
 		</div>
 
 		<div class="card">
 			<div class="circle"><h1>60</h1></div>
-			<div class="text">Travel</div>
+			<div class="text">Tempat Wisata</div>
 		</div>
 
 		<div class="card">
 			<div class="circle"><h1>30</h1></div>
-			<div class="text">Local Accommodation Partners</div>
+			<div class="text">Mitra Akomodasi Lokal</div>
 		</div>
 	</div>
 </div>

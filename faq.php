@@ -18,24 +18,24 @@
       <ul class="navbar-nav">
       
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php#home">Home</a>
+          <a class="nav-link" aria-current="page" href="index.php#home">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php#about">About</a>
+          <a class="nav-link" href="index.php#about">Tentang Kami</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php#service">Service</a>
+          <a class="nav-link" href="index.php#service">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact">Kontak</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
+            Lainya
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="options.php">Travel Selection</a></li>
-            <li><a class="dropdown-item" href="galery.php">Galery</a></li>
+            <li><a class="dropdown-item" href="select.php">Pilihan Wisata</a></li>
+            <li><a class="dropdown-item" href="galery.php">Galeri</a></li>
           </ul>
         </li>
       </ul>
