@@ -13,7 +13,7 @@ $isi = query("SELECT * FROM tb_wisata WHERE code = '$code' ");
 
 
 <!DOCTYPE html>
-<html>
+<html lang="id-ID">
 <head>
 	<title>GeoTourism Sentul</title>
 	<?php include "aset/php/header.php";?>

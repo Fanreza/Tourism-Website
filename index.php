@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="id-ID">
 <head>
 	<title>GeoTourism Sentul</title>
 	<?php include "aset/php/header.php"; ?>
