@@ -4,15 +4,15 @@ a small project I worked on for my uncle
 
 # Some information regarding this program
 
-**Made with**
+**Made with** <br>
 Bootstrap 5
 PHP 7.4.9 
 
-**Important**
+**Important** <br
 • Make sure the order of the javascript has not changed 
   Jquery  
   Popper
-	Bootstrap.min.js
+  Bootstrap.min.js
 
 • Pay Attention to Connections to assets
   I have two connections for assets like css and javascript, specifically bootstrap
