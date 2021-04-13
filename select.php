@@ -17,9 +17,9 @@ $isi = query("SELECT * FROM tb_opsi ");
 	<!-- Navigation Bar -->
 <nav class="navbar fixed-top navbar-expand-lg  bg-transparant">
   <div class="container-fluid">  
-    <a class="navbar-brand" href="#" style="color: white; padding-left: 50px; font-size: 15px;"><img src="aset/image/logo-web.png" width="70px">Geo Tourism</a>
+    <a class="navbar-brand" href="#" style="color: white; padding-left: 50px; font-size: 15px;"><img src="aset/image/logo-web.png" width="70px" height="70px">Geo Tourism</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <img src="aset/image/menu-bar.png" style="width: 30px;">
+      <img src="aset/image/menu-bar.png" style="width: 30px; height: 30px;">
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -55,14 +55,14 @@ $isi = query("SELECT * FROM tb_opsi ");
 <section class="jumbotron text-center">
 	    <div id="container-provinsi" class="container" >
 	      <h1>Sentul City</h1>
-	      <p class="lead">Sentul City adalah sebuah kawasan "kota pegunungan" seluas kira-kira 3000 hektare yang berada di Kecamatan Babakan Madang, Kabupaten Bogor, di sebelah timur Kota Bogor yang dikembangkan oleh PT Sentul City Tbk</p>
+	      <p>Sentul City adalah sebuah kawasan "kota pegunungan" seluas kira-kira 3000 hektare yang berada di Kecamatan Babakan Madang, Kabupaten Bogor, di sebelah timur Kota Bogor yang dikembangkan oleh PT Sentul City Tbk</p>
 	    </div>
   	</section>
 
 
 
   <div  class="album py-5 ">
-    <div  class="container">
+    <div  class="container container-list">
       <div class="row">
 
         <?php foreach ($isi as $isian) :?>
