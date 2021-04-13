@@ -60,7 +60,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: #010101;
+	color: #fff;
 	background-color: #82A822;
 }
 
@@ -84,10 +84,9 @@ ul.navbar-nav a.nav-link{
     background-color: rgba(130, 168, 34,.9) !important;
 }
 
-
-
 .navbar-nav.scroll a:hover{
 	background-color: #010101 !important;
+	color: #82A822 !important;
 }
 
 .bg-transparant.scroll a{
@@ -124,7 +123,7 @@ ul.navbar-nav a.nav-link{
 
 .dropdown-menu a:hover{
 	background-color: #82A822 !important;
-	color: #010101;
+	color: #fff;
 	border-radius: 0 !important;
 }
 
@@ -576,322 +575,6 @@ ul.navbar-nav a.nav-link{
 .copyright span a:hover{
 	text-decoration: underline;
 }
-
-
-
-
-
-
-
-/*=============================================== OPTIONS PAGE ===============================================*/
-.jumbotron {
-  padding-top: 10rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;	
-  height: 600px;
-  color: white;
-  background: url(../image/travel-bg.jpg);
-  background-repeat:no-repeat; 
-  background-size: cover;
-}
-
-
-.jumbotron p{
-	font-weight: 800;
-	padding-bottom: 20px;
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron h1 {
-  font-weight: 900;
-  padding-top: 20px;
-}
-
-.jumbotron #container-provinsi {
-  max-width: 40rem;
-  background-color: rgba(0,0,0,0.4);
-  height: auto;
-}
-
-.card-travel{
-	border-radius: 10px;
-}
-
-.col-md-6 img{
-	height: 280px;
-	border-radius: 10px 10px 0 0 ;
-}
-
-.col-md-6 .card-title{
-	font-weight: 700;
-}
-
-.btn-group a{
-	background-color: #82A822;
-	font-family: "Fira-B";
-	color: white;
-	width: 150px;
-	padding: 5px 20px;
-	border-radius: 5px;
-	text-decoration: none;
-}
-
-.btn-group a:hover{
-	color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*=============================================== TRAVEL PAGE ===============================================*/
-.desc-section{
-	padding: 40px 0;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.head-desc{
-	padding: 20px;
-}
-
-.desc{
-	width: 90%;
-}
-
-.desc p{
-	font-size: 20px;
-}
-
-.maps{
-	display: flex;
-	justify-content: center;
-	padding-top: 40px;
-}
-
-.maps iframe{
-	width: 1000px;
-	height: 500px;
-}
-
-
-
-
-
-
-
-
-/*=============================================== IMAGE GALLERY PAGE /*===============================================*/
-.head-image{
-	margin-top: 150px;
-	text-align: center;
-}
-
-.container-image { 
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-gap: 10px;
-  margin: 50px auto;
-  width: 90%;
-  justify-content: center;
-}
-  
-.container-image img {
-  border: 1px solid rgba(0,0,0,0.3);
-  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.container-image .image{
-	position: relative;
-	display: flex;
-}
-
-.container-image .image .caption{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: black;
-	display: flex;
-	opacity: 0;
-	transition: all .8s ease;
-	justify-content: center;
-}
-
-
-.container-image .image p{
-	width: 70%;
-	color: #82a42b;
-	align-self: center;
-	text-align: center;
-}
-
-.container-image .image:hover img{
-	filter: brightness(50%);
-}
-
-.image:hover .caption{
-	opacity: 1 !important;
-	background-color: rgba(0,0,0,.8);
-}
-
-.container-image .image:nth-child(1){
-	grid-row-start: 1;
-	grid-row-end: 3;
-	grid-column-start: 1;
-	grid-column-end: 3;	
-}
-
-.container-image .image:nth-child(8){
-	grid-column-start: 1;
-	grid-column-end: span 2;	
-}
-
-.container-image .image:nth-child(9){
-	grid-column-start: 3;
-	grid-column-end: span 2;	
-}
-
-
-
-
-
-
-
-/*=============================================== /*FAQ Page*/ /*===============================================
-
-
-/*Jumbotron FAQ*/
-.jumbotron-faq{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 50px;
-}
-
-
-.jumbotron-text{
-	width: 50%;
-}
-
-.jumbotron-text h1{
-	font-size: 25px;
-	text-align: center;
-}
-
-.jumbotron-text span{
-	color: #82A822;
-}
-
-
-/*FAQ List*/
-.faq-lists{
-	margin-top: 50px;
-}
-
-.accordion .accordion-item{
-	width: 80%;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-.accordion-button:after {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-}
-
-.accordion .accordion-item button{
-	background-color: #82A822;
-	color: white;
-	font-family: "Fira-B";
-	font-size: 20px;
-}
-
-
-
-/*FAQ Contact Section*/
-.faq-head{
-	text-align: center;
-	margin-top: 100px;
-}
-
-.faq-head h1{
-	font-size: 25px;
-}
-
-.faq-head span{
-	color: #82A822;
-}
-
-.faq-contact{
-	flex-wrap: wrap;
-	margin-top: 50px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.faq-contact .contact{
-	border-radius: 10px;
-	background-color: rgba(0,0,0,.9);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	width: 300px;
-	height: 200px;
-	border: 5px solid #82A822;
-}
-
-.contact .contact-image{
-	width: 100%;
-	height: 80%;	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-}
-
-.contact .contact-image img{
-	width: 100px;
-	height: 100px;
-}
-
-.contact .contact-text{
-	height: 20%;
-	width: 100%;
-	text-align: center;
-}
-
-.contact .contact-text a{
-	color: #82A822;
-	font-size: 18px;
-	text-decoration: none;
-}
-
-.contact .contact-text a:hover{
-	text-decoration: underline;
-}
-
-
-
-
-
-
-
 
 
 
@@ -1672,4 +1355,391 @@ ul.navbar-nav a.nav-link{
 		grid-column-end: auto;	
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================== SELECT PAGE ===============================================*/
+.jumbotron {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;	
+  height: 600px;
+  color: white;
+  background: url(../image/travel-bg.webp);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+
+.jumbotron p{
+	font-weight: 800;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.jumbotron #container-provinsi {
+  max-width: 40rem;
+  background-color: rgba(0,0,0,0.4);
+  height: auto;
+}
+
+.card-travel{
+	border-radius: 10px;
+}
+
+.container-list .col-md-6 img{
+	height: 280px;
+	width: 100%;
+	border-radius: 10px 10px 0 0 ;
+}
+
+.container-list .col-md-6 .card-title{
+	font-weight: 700;
+}
+
+.container-list .btn-group a{
+	background-color: #82A822;
+	font-family: "Fira-B";
+	color: white;
+	width: 150px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.container-list .btn-group a:hover{
+	color: black;
+}
+
+
+/*Responsive 360px width Select Page*/
+@media (min-width: 360px) and (max-width: 453px){
+	.jumbotron{
+		height: 500px;
+		background-size: 100% 100%;
+	}
+
+
+	.jumbotron p{
+		font-size: 12px;
+	}
+
+	.container-list{
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	.container-list .card{
+		margin: auto;
+		text-align: center;
+		width: 80%;
+	}
+
+	.container-list .card .card-body{
+		font-size: 12px;
+	}
+
+	.container-list .col-md-6 img{
+		height: 200px;
+	}
+
+	.container-list .card .btn-group{
+		margin: auto;
+		width: 100%;
+	}
+
+	.container-list .card .btn-group a{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*=============================================== TRAVEL PAGE ===============================================*/
+.desc-section{
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.head-desc{
+	padding: 20px;
+}
+
+.desc{
+	width: 90%;
+}
+
+.desc p{
+	font-size: 20px;
+}
+
+.maps{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.maps iframe{
+	width: 1000px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+/*=============================================== IMAGE GALLERY PAGE /*===============================================*/
+.head-image{
+	margin-top: 150px;
+	text-align: center;
+}
+
+.container-image { 
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 10px;
+  margin: 50px auto;
+  width: 90%;
+  justify-content: center;
+}
+  
+.container-image img {
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-image .image{
+	position: relative;
+	display: flex;
+}
+
+.container-image .image .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	display: flex;
+	opacity: 0;
+	transition: all .8s ease;
+	justify-content: center;
+}
+
+
+.container-image .image p{
+	width: 70%;
+	color: #82a42b;
+	align-self: center;
+	text-align: center;
+}
+
+.container-image .image:hover img{
+	filter: brightness(50%);
+}
+
+.image:hover .caption{
+	opacity: 1 !important;
+	background-color: rgba(0,0,0,.8);
+}
+
+.container-image .image:nth-child(1){
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;	
+}
+
+.container-image .image:nth-child(8){
+	grid-column-start: 1;
+	grid-column-end: span 2;	
+}
+
+.container-image .image:nth-child(9){
+	grid-column-start: 3;
+	grid-column-end: span 2;	
+}
+
+
+
+
+
+
+
+/*=============================================== /*FAQ Page*/ /*===============================================
+
+
+/*Jumbotron FAQ*/
+.jumbotron-faq{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.jumbotron-text{
+	width: 50%;
+}
+
+.jumbotron-text h1{
+	font-size: 25px;
+	text-align: center;
+}
+
+.jumbotron-text span{
+	color: #82A822;
+}
+
+
+/*FAQ List*/
+.faq-lists{
+	margin-top: 50px;
+}
+
+.accordion .accordion-item{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion .accordion-item button{
+	background-color: #82A822;
+	color: white;
+	font-family: "Fira-B";
+	font-size: 20px;
+}
+
+
+
+/*FAQ Contact Section*/
+.faq-head{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.faq-head h1{
+	font-size: 25px;
+}
+
+.faq-head span{
+	color: #82A822;
+}
+
+.faq-contact{
+	flex-wrap: wrap;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.faq-contact .contact{
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 200px;
+	border: 5px solid #82A822;
+}
+
+.contact .contact-image{
+	width: 100%;
+	height: 80%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.contact .contact-image img{
+	width: 100px;
+	height: 100px;
+}
+
+.contact .contact-text{
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.contact .contact-text a{
+	color: #82A822;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.contact .contact-text a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
