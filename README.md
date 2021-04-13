@@ -9,10 +9,10 @@ Bootstrap 5 <br>
 PHP 7.4.9 <br>
 
 **Important** <br>
-• Make sure the order of the javascript has not changed 
-  Jquery  
-  Popper
-  Bootstrap.min.js
+• Make sure the order of the javascript has not changed <br>
+  Jquery  <br>
+  Popper <br>
+  Bootstrap.min.js <br>
 
 • Pay Attention to Connections to assets
   I have two connections for assets like css and javascript, specifically bootstrap
