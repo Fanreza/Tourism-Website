@@ -5,10 +5,10 @@ a small project I worked on for my uncle
 # Some information regarding this program
 
 **Made with** <br>
-Bootstrap 5
-PHP 7.4.9 
+Bootstrap 5 <br>
+PHP 7.4.9 <br>
 
-**Important** <br
+**Important** <br>
 • Make sure the order of the javascript has not changed 
   Jquery  
   Popper
